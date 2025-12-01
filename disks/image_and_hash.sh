@@ -44,7 +44,7 @@ main() {
     local dest_log="$POS_IMG_DIR/$name.log"
 
     # rm all the tmp files on exit
-    register_cleanup "rm -f '$temp_img, $temp_log'"
+    register_cleanup "rm -f '$temp_img' '$temp_log'"
 
     # Software write-blocking
     log_info "Setting $device read-only"
