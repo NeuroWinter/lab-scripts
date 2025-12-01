@@ -50,7 +50,7 @@ export POS_TEMP_DIR=/path/to/temp        # Default: /tmp/pos-temp
 
 ```bash
 # Connect drive (e.g., appears as /dev/sdc)
-# lsblk -o NAME,SIZE,MODEL,SERIAL helps me find where its mounted
+# lsblk -o NAME,SIZE,MODEL,SERIAL helps me find where it's mounted
 sudo ./image_and_hash.sh /dev/sdc DRV-01
 ```
 
