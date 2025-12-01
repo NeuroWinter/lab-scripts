@@ -35,7 +35,7 @@ require_root() {
     fi
 }
 
-# Make sure that thsi command is available
+# Make sure that this command is available
 require_command() {
     local cmd="$1"
     local pkg="${2:-$1}"
